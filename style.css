@@ -1,0 +1,192 @@
+/* General Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color:#ffb347;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.location {
+    font-size: 18px;
+    color: #333;
+}
+
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-right ul li {
+    margin-left: 25px;
+}
+
+.navbar-right ul li a {
+    text-decoration: none;
+    color:#ff4d4d;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.navbar-right ul li a:hover {
+    color: #ff4d4d;
+}
+
+/* Hero Section */
+main section:first-child {
+    background: url('/img/back.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main section:first-child img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+main section:first-child p {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight:bold;
+}
+
+.search-bar input {
+    width: 320px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.why-choose-us .tagline {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box h3 {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.feature-box p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Popular Cuisines Section */
+.popular-cuisines {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.popular-cuisines h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.cuisine-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cuisine-item {
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s;
+}
+
+.cuisine-item img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.cuisine-item:hover {
+    transform: scale(1.05);
+}
+
+.cuisine-item span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
